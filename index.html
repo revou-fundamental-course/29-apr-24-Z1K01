@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoSky</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lobster&family=Satisfy&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="body">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Skyline</a>
+        <ul class="nav-ullink">
+            <li href="#" class="nav-button"> BERANDA </li>
+            <li href="#" class="nav-button"> PAKET LIBURAN </li>
+            <li href="#" class="nav-button"> HUBUNGI KAMI </li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Konten -->
+    <div class="container">
+        <div class="intro">
+            <h1 class="intro-h1">Agen Travel Paling Terpercaya</h1>
+            <p>"Kebahagiaan Anda Merupakan Kebahagiaan Kami"</p>
+        </div>
+    </div>
+    <section>
+            <div class="info-img">
+                <img src="assets/001.jpg" alt="none" class="img" />
+                <p class="text-img">Liburan Jadi Menyenangkan Bersama Agen Skyline</p>
+            </div>
+            <div class="info-costumer">
+                <form action="#" class="form">
+                <h1>Contact Us</h1>
+                <br>
+                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                <br>
+                <br>
+                    <label class="name">Name:</label>
+                    <input type="text" id="name">
+                    <label class="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <label for="country">What are you Interested in?</label>
+                    <div class="select-box">    
+                        <select>Pilih
+                            <option value="Jakarta">Jakarta</option>
+                            <option value="Bandung">Bandung</option>
+                            <option value="Bali">Bali</option>
+                        </select>
+                    </div>
+                    <br>
+                    <button class="button-send" type="submit">SEND</button>
+                </form>
+            </div>
+    </section>
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
